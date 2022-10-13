@@ -1,2 +1,8 @@
-const google = document.getElementsByClassName('lnXdpd')
-google.parentNode.removeChild(google)
+document.addEventListener('DOMContentLoaded', () => {
+    const body = document.querySelector('body');
+  
+    const jared1 = new Jared(body);
+   
+  
+  });
+  
