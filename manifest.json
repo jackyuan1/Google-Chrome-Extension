@@ -1,12 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "Hello JARED",
-    "description": "Soon Jared will overcome your life",
+    "name": "I am just a background color changing extension!",
+    "description": "I promise I love AJACKS coding during JACKATHON",
     "version": "1.0",
     "content_scripts": [
         {
-          "matches": ["https://www.google.com/*"],
-          "js": ["./main.js", "./styles.css"]
+          "matches": ["*://*/*"],
+          "js": ["./main.js"]
         }
       ]
   }
